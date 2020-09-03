@@ -4,6 +4,7 @@ import tshirtImage from '../../assets/tshirt.png';
 
 import {Container, Row, Panel, Column, Gallery, Section, Description} from './styles'
 import SellerInfo from '../SellerInfo'
+import ProductAction from '../ProductAction'
 
 const Product: React.FC = () => {
   return (
@@ -23,6 +24,7 @@ const Product: React.FC = () => {
         </Column>
           
         <Column>
+          <ProductAction/>
           <SellerInfo/>
           <WarrantySection/>
           <WarrantySection/>
